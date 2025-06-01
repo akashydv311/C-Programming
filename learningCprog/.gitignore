@@ -1,0 +1,22 @@
+# Ignore everything by default
+
+# But do NOT ignore these files:
+!*.c
+# Ignore Code::Blocks project files and build folders
+*.cbp
+*.depend
+*.layout
+bin/
+obj/
+Debug/
+Release/
+*.exe
+*.o
+*.dll
+*.so
+*.a
+*.lib
+
+# Ignore any other common OS or editor files
+.DS_Store
+Thumbs.db
